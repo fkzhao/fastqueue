@@ -1,4 +1,4 @@
-package dev.fastqueue.impl;
+package cc.fastsoft.queue.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,13 +10,13 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import dev.fastqueue.page.MappedPage;
-import dev.fastqueue.page.MappedPageFactory;
-import dev.fastqueue.page.impl.MappedPageFactoryImpl;
-import dev.fastqueue.utils.Calculator;
-import dev.fastqueue.utils.FileUtil;
+import cc.fastsoft.queue.page.MappedPage;
+import cc.fastsoft.queue.page.MappedPageFactory;
+import cc.fastsoft.queue.page.impl.MappedPageFactoryImpl;
+import cc.fastsoft.queue.utils.Calculator;
+import cc.fastsoft.queue.utils.FileUtil;
 
-import dev.fastqueue.FastArray;
+import cc.fastsoft.queue.FastArray;
 
 public class FastArrayImpl implements FastArray {
     // folder name for index page

@@ -1,5 +1,5 @@
-package dev.fastqueue;
-import dev.fastqueue.impl.FastQueueImpl;
+package cc.fastsoft.queue;
+import cc.fastsoft.queue.impl.FastQueueImpl;
 import org.junit.Test;
 import java.io.IOException;
 

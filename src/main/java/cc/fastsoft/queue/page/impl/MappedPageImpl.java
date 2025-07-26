@@ -1,6 +1,6 @@
-package dev.fastqueue.page.impl;
+package cc.fastsoft.queue.page.impl;
 
-import dev.fastqueue.page.MappedPage;
+import cc.fastsoft.queue.page.MappedPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

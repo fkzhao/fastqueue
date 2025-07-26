@@ -1,4 +1,4 @@
-package dev.fastqueue.cache;
+package cc.fastsoft.queue.cache;
 
 import java.io.Closeable;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package dev.fastqueue.page.impl;
+package cc.fastsoft.queue.page.impl;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,14 +12,14 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
 
-import dev.fastqueue.page.MappedPage;
+import cc.fastsoft.queue.page.MappedPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import dev.fastqueue.page.MappedPageFactory;
-import dev.fastqueue.cache.LRUCache;
-import dev.fastqueue.cache.LRUCacheImpl;
-import dev.fastqueue.utils.FileUtil;
+import cc.fastsoft.queue.page.MappedPageFactory;
+import cc.fastsoft.queue.cache.LRUCache;
+import cc.fastsoft.queue.cache.LRUCacheImpl;
+import cc.fastsoft.queue.utils.FileUtil;
 
 import static java.nio.channels.FileChannel.MapMode.READ_WRITE;
 

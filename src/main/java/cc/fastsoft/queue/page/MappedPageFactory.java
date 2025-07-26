@@ -1,4 +1,4 @@
-package dev.fastqueue.page;
+package cc.fastsoft.queue.page;
 
 import java.io.IOException;
 import java.util.Set;

@@ -1,4 +1,4 @@
-package dev.fastqueue.utils;
+package cc.fastsoft.queue.utils;
 
 import java.io.File;
 import java.io.IOException;

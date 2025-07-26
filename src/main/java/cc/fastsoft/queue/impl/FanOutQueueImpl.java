@@ -1,4 +1,4 @@
-package dev.fastqueue.impl;
+package cc.fastsoft.queue.impl;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.concurrent.ConcurrentHashMap;
@@ -7,11 +7,11 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import dev.fastqueue.page.MappedPage;
-import dev.fastqueue.page.MappedPageFactory;
-import dev.fastqueue.page.impl.MappedPageFactoryImpl;
-import dev.fastqueue.utils.FolderNameValidator;
-import dev.fastqueue.FanOutQueue;
+import cc.fastsoft.queue.page.MappedPage;
+import cc.fastsoft.queue.page.MappedPageFactory;
+import cc.fastsoft.queue.page.impl.MappedPageFactoryImpl;
+import cc.fastsoft.queue.utils.FolderNameValidator;
+import cc.fastsoft.queue.FanOutQueue;
 
 
 public class FanOutQueueImpl implements FanOutQueue {

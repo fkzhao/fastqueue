@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>dev.fastqueue</groupId>
+    <groupId>cc.fastsoft</groupId>
     <artifactId>fastqueue</artifactId>
     <version>0.1.0</version>
     <packaging>jar</packaging>
@@ -25,7 +25,7 @@
         <developer>
             <name>fkzhao</name>
             <email>fkzhao@outlook.com</email>
-            <organization>dev.fastqueue</organization>
+            <organization>cc.fastsoft</organization>
         </developer>
     </developers>
 
@@ -105,7 +105,34 @@
                     </execution>
                 </executions>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+                        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
+
+    <profiles>
+        <profile>
+            <id>ossrh</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <gpg.executable>gpg</gpg.executable>
+            </properties>
+        </profile>
+    </profiles>
+
 
 </project>

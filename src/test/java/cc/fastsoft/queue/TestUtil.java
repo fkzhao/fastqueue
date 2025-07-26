@@ -1,4 +1,4 @@
-package dev.fastqueue;
+package cc.fastsoft.queue;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package dev.fastqueue.impl;
+package cc.fastsoft.queue.impl;
 
 import java.io.IOException;
 import java.nio.ByteBuffer;
@@ -8,12 +8,12 @@ import java.util.concurrent.locks.ReentrantLock;
 
 import com.google.common.util.concurrent.ListenableFuture;
 import com.google.common.util.concurrent.SettableFuture;
-import dev.fastqueue.FastArray;
-import dev.fastqueue.page.MappedPage;
-import dev.fastqueue.page.MappedPageFactory;
-import dev.fastqueue.page.impl.MappedPageFactoryImpl;
+import cc.fastsoft.queue.FastArray;
+import cc.fastsoft.queue.page.MappedPage;
+import cc.fastsoft.queue.page.MappedPageFactory;
+import cc.fastsoft.queue.page.impl.MappedPageFactoryImpl;
 
-import dev.fastqueue.FastQueue;
+import cc.fastsoft.queue.FastQueue;
 
 public class FastQueueImpl implements FastQueue {
     final FastArray innerArray;
