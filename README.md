@@ -5,7 +5,7 @@ A fast and persistent queue based on memory mapped file.
 
 ***Notice***, fast queue is just a standalone library, for a high-throughput, persistent, distributed, publish-subscribe messaging system.
 
-##Feature Highlight:
+## Feature Highlight:
 1. **Fast**: close to the speed of direct memory access, both enqueue and dequeue are close to O(1) memory access.
 2. **Big**: the total size of the queue is only limited by the available disk space.
 3. **Persistent**: all data in the queue is persisted on disk, and is crash resistant.
